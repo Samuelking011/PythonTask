@@ -1,7 +1,7 @@
 import os
 import git
 
-#repo = git.Repo.clone_from("git@github.com:AmujoDotun/quiz.git","task2_clone", branch="master")
+repo = git.Repo.clone_from("git@github.com:AmujoDotun/quiz.git","task2_clone", branch="master")
 
 if os.path.exists("task2_clone/src/main.js"):
     os.remove("task2_clone/src/main.js")
